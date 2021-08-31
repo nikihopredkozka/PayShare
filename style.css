@@ -1,0 +1,181 @@
+.menu a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 100px;
+    padding: 20px 40px;
+    
+}
+
+.menu a:hover {
+    background-color: #ccc;
+}
+
+.menu {
+    text-align: center;
+
+}
+
+.header {
+    background-image: url(img/polygons.png);
+    text-align: center;
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: floralwhite;
+
+}
+
+ .header a {
+     text-decoration: none;
+     color:black;
+     background-color: white;
+     padding: 12px 24px;
+     border-radius: 10px;
+ }
+
+.company img {
+   width: 400px;
+   float: right;
+}
+
+.company h2{
+    text-align: center;
+}
+
+.company {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.team {
+    text-align: center;
+  
+}
+ 
+.member{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    text-align: left;
+    width: 23%;
+    display: inline-block;
+    padding: 12px;
+}
+
+.member img{
+    width: 100%;
+}
+
+.member a{
+    color: white;
+    text-decoration: none;
+    background-color: #055b73;
+    display: inline-block;
+    width:100%;
+    border-radius: 5px;
+    padding: 14px 0;
+    text-align: center;
+}
+
+.price {
+background-color:grey;
+text-align: center;
+;
+}
+
+.price h2, .price p  {
+    color: white;
+}
+
+.price li {
+    list-style-type: none;
+    padding: 16px 0;
+    border-bottom: 1px solid #dddddd;
+
+
+}
+
+.price ul{
+        background-color: white;
+        width: 30%;
+        padding: 0;
+        margin: 20px ;
+        display: inline-block;
+}
+
+#basic {
+    background-color: black;
+    color: white;
+    padding: 32px;
+    font-size: 24px;
+}
+
+.price a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+span {
+    font-weight: 600;
+}
+
+#pro {
+    background-color: black;
+    color: white;
+    padding: 32px;
+    font-size: 24px;
+}
+
+#premium {
+    background-color: black;
+    color: white;
+    padding: 32px;
+    font-size: 24px;
+}
+
+
+.contacts {
+    background-color: #ccc;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.address {
+    background-image: url(img/address.png);
+    
+}
+
+.phone {
+    background-image: url(img/phone.png);
+
+}
+
+.email {
+    background-image: url(img/mail.png);
+}
+
+.contact {
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    margin-left: 5%;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.contacts input {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+.contacts button { 
+    background: black;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 7px;
+}
